@@ -18,8 +18,14 @@ header
 
 	 }
 }
+.menul{
+	font-size: 35px;
+}
 a{
 	text-decoration: none;
+}
+li{
+	list-style: none;
 }
 nav {
 	a{
@@ -239,4 +245,19 @@ nav {
     	border-radius: 3px;
 	}
 }
+
+
+.row .col-xs-5{
+	padding-top: 2%;
+	padding-left: 7%; 
+	img
+	{
+		 max-width: 99%;
+		 height: auto;
+	}
+}
+#puppet-logo{
+	padding-top: 5%;
+}
+
 
