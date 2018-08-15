@@ -7,18 +7,18 @@
   <div id="demo" class="collapse">
 
     <div class="navbar-text pull-right" style="align-items: left">
-    	  <li class="columns" ><a href="#home">WORK</a></li>
-          <li class="columns"><a href="#news">SERVICE</a></li>
-          <li class="columns"><a href="#contact">BLOG</a></li>
-          <li class="columns"><a href="#about">CONTACTO</a> </li>
+    	  <li class="columns" ><%= link_to "WORK",  work_path  %></li>
+          <li class="columns"><%= link_to "SERVICE",  services_path  %></li>
+          <li class="columns"><%= link_to "BLOG",  blog_path  %></li>
+          <li class="columns"><%= link_to "CONTACT",  contact_path  %> </li>
 	</div>
   </div>
 </div>
   <div class="navbar-text pull-right" id="menu" style="align-items: left">
-		  <a href="#home">WORK</a>
-		  <a href="#news">SERVICE</a>
-		  <a href="#contact">BLOG</a>
-		  <a href="#about">CONTACTO</a>
+		  <%= link_to "WORK",  work_path  %>
+		  <%= link_to "SERVICE",  services_path  %>
+		  <%= link_to "BLOG",  blog_path  %>
+		  <%= link_to "CONTACT",  contact_path  %> 
 
 	</div>
 </nav>
